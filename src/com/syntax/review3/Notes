@@ -1,0 +1,56 @@
+Logical Operators
+
+When we need to test for 2 or more conditions we use Logical Operators
+
+    AND OR NOT
+    &&  ||  !
+
+
+boolean cold=true;
+boolean rain=true;
+
+
+AND
+
+true && true -> TRUE
+true && false -> FALSE
+false && true -> FALSE
+false && false -> FALSE
+
+
+OR
+
+true || true -> TRUE
+true || false -> TRUE
+false || true -> TRUE
+false || false -> FALSE
+
+
+
+if (cold, rain) {
+        sout ("I will stay at home");
+}
+
+
+NOT - reverse the condition
+
+       boolean boo=!false;
+       sout(boo); // true
+
+
+Switch Statement -
+
+syntax
+
+switch (variable) {
+
+case value1:
+        code A;
+        break;
+case value2:
+        code B;
+        break;
+default:
+        Code C;
+        break;
+}
