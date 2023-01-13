@@ -1,6 +1,6 @@
 package com.syntax.review3;
 
-public class Switch {
+public class SwitchDemo {
     public static void main(String[] args) {
 
         /*
