@@ -9,16 +9,24 @@ public class ClockHomework {
     It should start printing 00:00 and end 23:59
      */
 
-        for (int a = 0; a <= 2; a++) {
-            for (int b = 0; b <= 3; b++) {
-                for (int c = 0; c <= 59; c++) {
-                    for (int d = 0; d <= 59; d++) {
-                        System.out.println(a+""+ b + ":" + c+":"+d);
+        for (int i = 0; i <=2 ; i++) {
+            for (int j = 0; j <=9 ; j++) {
+                if (i==2 && j==4){
+                    break;
+                }
+                for (int k = 0; k <= 59; k++) {
+                    if (k<10){
+                        System.out.println(i+""+j+":0"+k);
+                    }else {
+                        System.out.println(i+""+j+":"+k);
                     }
                 }
+
             }
+
         }
+
+    }
 
 
     }
-}
