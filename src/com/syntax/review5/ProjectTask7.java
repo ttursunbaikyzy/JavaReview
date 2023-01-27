@@ -1,6 +1,6 @@
 package com.syntax.review5;
 
-public class Task7 {
+public class ProjectTask7 {
     public static void main(String[] args) {
         /* Write a java program to check whether a given number is prime or not?
         1. number >1

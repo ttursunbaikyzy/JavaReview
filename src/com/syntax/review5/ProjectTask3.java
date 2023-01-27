@@ -1,6 +1,6 @@
 package com.syntax.review5;
 
-public class Task3 {
+public class ProjectTask3 {
     public static void main(String[] args) {
 
         int [][] numbers={

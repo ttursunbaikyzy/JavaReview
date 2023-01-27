@@ -1,6 +1,6 @@
 package com.syntax.review5;
 
-public class Task8 {
+public class ProjectTask8 {
     public static void main(String[] args) {
         // Write a Java Program to print the first 10 numbers of Fibonacci series.
         int a=0;
