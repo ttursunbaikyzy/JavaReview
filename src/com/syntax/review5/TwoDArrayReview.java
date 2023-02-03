@@ -20,9 +20,6 @@ public class TwoDArrayReview {
             }
         }
 
-
-
-
         System.out.println("--------------------------------");
         //getting all values from 2D array
         for(int[] arr:array){ // iterates over arrays
@@ -33,8 +30,6 @@ public class TwoDArrayReview {
             }
             System.out.println();
         }
-
-
 
         System.out.println("--------------------------------");
         int numberOfArrays = array.length;
