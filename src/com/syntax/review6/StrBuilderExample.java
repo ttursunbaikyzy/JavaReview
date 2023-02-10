@@ -14,6 +14,8 @@ public class StrBuilderExample {
         String str=sb.toString(); // no more mutable
         str.toUpperCase(); // proves that String is immutable
         System.out.println(str); // olleH
+        System.out.println(str.toUpperCase());
+        System.out.println(str);
 
     }
 }
