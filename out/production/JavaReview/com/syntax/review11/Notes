@@ -1,0 +1,17 @@
+EntryMap:
+
+
+
+
+
+Note:
+To see Java version
+File => Project Structure
+
+
+
+In Java, catch and try blocks are used for exception handling, which is a mechanism used to handle errors that occur during the execution of a program.
+When an exception occurs during the execution of a program, the program's normal flow of execution is interrupted, and the JVM (Java Virtual Machine) generates an exception object that contains information about the error.
+The catch block is used to catch these exception objects and handle them appropriately. It allows the programmer to specify what action should be taken when an exception occurs.
+The try block is used to enclose the code that might throw an exception. By enclosing the code in a try block, the programmer can handle the exception in a controlled way rather than letting the program crash.
+Together, the try and catch blocks allow for graceful handling of errors that might otherwise cause a program to crash or behave unpredictably. By using exception handling, programmers can make their programs more robust and reliable.
